@@ -1,0 +1,27 @@
+.place__paragraph {
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    margin:0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .place__paragraph {
+      max-width: 456px;
+    }
+  } 
+
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+      max-width: 352px;
+    }
+  } 
+
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
+      max-width: 288px;
+      margin: 0 16px;
+      grid-area: place__paragraph;
+    }
+  } 
