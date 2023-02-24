@@ -1,18 +1,18 @@
 .footer__copyright {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin:0;
-    text-align: end;
-    color: #FFFFFF;
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  text-align: end;
+  color: #FFFFFF;
+}
 
-  @media screen and (max-width: 320px) {
-    .footer__copyright {
-      font-size: 14px;
-      line-height: 14px;
-      text-align: start;
-    }
-    }
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: start;
+  }
+}
