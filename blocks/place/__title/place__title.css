@@ -1,7 +1,6 @@
 .place__title {
   display: flex;
   align-items: flex-end;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -18,13 +17,13 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    max-width: 340px;
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 670px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;

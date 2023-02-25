@@ -5,6 +5,7 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,11 +18,11 @@
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    margin: 92px 0;
+    margin: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover {
     max-width: 320px;
     margin: 64px 0 66px 0;
