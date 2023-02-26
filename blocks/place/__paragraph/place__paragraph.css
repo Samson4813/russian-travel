@@ -14,14 +14,14 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: 350px;
+    min-width: 352px;
     row-gap: 25px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
-    max-width: 288px;
+    min-width: 288px;
     grid-area: place__paragraph;
     margin: 0 16px 0;
   }
