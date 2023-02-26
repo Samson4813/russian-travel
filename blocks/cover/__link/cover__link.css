@@ -30,14 +30,14 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__link {
     min-width: 1024px;
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__link {
     min-height: 480px;
     min-width: 768px;
