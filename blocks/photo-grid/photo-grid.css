@@ -30,7 +30,7 @@
     max-width: 288px;
     grid-template-columns: 288px;
     grid-template-rows: repeat(12, minmax(min-content, max-content));
-    gap: 12px 12px;
+    gap: 12px 0;
     margin: 0 16px;
   }
 }
