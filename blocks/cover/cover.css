@@ -1,28 +1,28 @@
 .cover {
   display: flex;
   max-width: 1184px;
-  margin: 92px 48px;
+  margin: 92px auto 0;
   flex-direction: column;
   position: relative;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 1024px;
     margin: 92px 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    min-width: 768px;
+    max-width: 768px;
     margin: 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover {
     max-width: 320px;
     margin: 64px 0 66px 0;
